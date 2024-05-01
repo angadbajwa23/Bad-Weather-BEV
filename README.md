@@ -1,6 +1,8 @@
 # Bird’s Eye View of Road Attributes in Bad Weather Conditions
 
-BEV map for object detection of road attributes in bad weather and lighting conditions.
+With advancements in the field of ego vehicles, there has been substantial research focusing on perception for subsequent motion planning. To that end, Bird's Eye View representations can be used to help autonomous vehicles to gain an understanding of their surroundings to make decisions. BEV map is an elevated view of a portion of the world, with a top-down perspective as if the observer were a bird. Information from multiple sensors are used to generate maps of the environment that describe where objects are positioned in space and how the vehicle is oriented in reference to them. BEV maps have the distinctive characteristic of collapsing vertical information on a flat surface.
+
+In this project, we focus on generating BEV maps and detect surrounding vehicles in bad weather and lighting conditions like rain, snow, fog and night.
 
 Goals:
 - Image pre-processing through transformers that works to restore images.
