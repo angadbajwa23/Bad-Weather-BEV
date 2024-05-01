@@ -68,8 +68,8 @@ Here are some links to watch the model perform in:
 - Good Weather : [https://youtu.be/BHOxSMDHqgQ?feature=shared]
 - Bad Weather : [https://youtu.be/74tuGAbgg0Q?feature=shared]
 
-### HOW TO RUN
-
+<!-- ### HOW TO RUN -->
+All models can be found here: [https://drive.google.com/drive/folders/1pjZ8GnHhS9cDGjkwIJMU6Mr3aJyzbqHt?usp=sharing]
 
 
 
