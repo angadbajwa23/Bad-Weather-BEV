@@ -25,8 +25,30 @@ for extreme weather. The images can be seriously blurred, hazy or fully blocked 
 * **Radar** RADIATE adopts the Navtech CTS350-X radar. It is a scanning radar which provides 360° high-resolution range-azimuth images. It has 100 meters maximum operating range with 0.175m range resolution, 1.8° azimuth resolution and 1.8° elevation resolution, Currently, it does not provide Doppler information.
 * **GPS/IMU** : Advanced Navigation GPS/IMU is provided. 
 
+## DERAINING/DESNOWING/DEFOGGING
+We use the TransWeather[https://github.com/jeya-maria-jose/TransWeather] model for preprocessing input images to the camera pipeline. Here are how the results of this model look like in adverse weather conditions:
 
 
+![](assets/deraining.png)
+
+![](assets/desnowing.png)
+
+![](assets/defogging.png)
+
+
+## CAM2BEV
+
+
+## LIDAR + RADAR FUSION
+
+
+## HOW TO RUN
+
+
+## ACKNOWLEDGEMENT
+
+
+<!-- 
 ## Vehicle Detection
 
 As first baseline, we have performed evaluation of vehicle detection from single images. We defined a vehicle as one of the following classes: car, van, truck, bus, motorbike and bicycle.
@@ -50,4 +72,4 @@ of radar based vehicle detection in various driving scenarios and weather condit
 
 ![](assets/results_example.png)
 
-The code and the trained weights from radar based vehicle detection can be seen at [https://github.com/marcelsheeny/radiate_sdk/tree/master/vehicle_detection](https://github.com/marcelsheeny/radiate_sdk/tree/master/vehicle_detection)
+The code and the trained weights from radar based vehicle detection can be seen at [https://github.com/marcelsheeny/radiate_sdk/tree/master/vehicle_detection](https://github.com/marcelsheeny/radiate_sdk/tree/master/vehicle_detection) -->
