@@ -43,7 +43,7 @@ that would help us achieve a BEV map of what the ego vehicle perceives in front 
 with Detectron2, we identified bounding boxes in the image’s 2D co-ordinate plane. From this, we
 estimated 3D bounding boxes, picking the top edge to scale and overlay on the RADAR images.
 Below is outlined the flow for a singular image going through the Camera to BEV model.
-![](assets/deraining.png)
+![](assets/example_cam2b.png)
 
 
 Approach 2: Object detection was carried out on each frame using the YOLOv5 model. Object tracking was also
